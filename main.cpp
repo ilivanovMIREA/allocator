@@ -168,10 +168,10 @@ private:
 //факториал
 int fact(int n)
 {
-	int val = 1;
-	for(int i = 2; i <= n; ++i)
-		val *= i;
-	return val;
+	if(n == 0 || n == 1)
+		return 1;
+	else
+		return n*(fact(n-1));	
 }
 
 int main()
@@ -181,7 +181,7 @@ int main()
 	{
 		std::map<int, int> m;
 		for (int i = 1; i < 10; ++i)
-			m[i] = fact(i);
+			m[i] = fact(i);			
 	}
 	
 	//My map allocator
