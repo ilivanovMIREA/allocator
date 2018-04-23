@@ -1,7 +1,6 @@
 #include <cstdlib>
 #include <iostream>
 #include <map>
-
 //аллокатор
 template <class T>
 class customAllocator
