@@ -1,0 +1,3 @@
+/home/ilivanov/allocator/build/CMakeFiles/rebuild_cache.dir
+/home/ilivanov/allocator/build/CMakeFiles/edit_cache.dir
+/home/ilivanov/allocator/build/CMakeFiles/allocator.dir
